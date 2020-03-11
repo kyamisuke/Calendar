@@ -3,10 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		419BD1A47491BBF1C1AAD08C /* Pods_CalenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3820452B5E24380326BDFA6 /* Pods_CalenderTests.framework */; };
+		8A0ABD3133E65899FF43288E /* Pods_Calender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83D3B7A083AB4BDFA09F3EB /* Pods_Calender.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8F9340BE23EEDA31002E901B /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408323EEDA31002E901B /* iTunesArtwork@1x.png */; };
+		8F9340BF23EEDA31002E901B /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408523EEDA31002E901B /* Icon-App-76x76@2x.png */; };
+		8F9340C023EEDA31002E901B /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408623EEDA31002E901B /* Icon-App-29x29@1x.png */; };
+		8F9340C123EEDA31002E901B /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408723EEDA31002E901B /* Icon-App-40x40@1x.png */; };
+		8F9340C223EEDA31002E901B /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408823EEDA31002E901B /* Icon-App-20x20@1x.png */; };
+		8F9340C323EEDA31002E901B /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408923EEDA31002E901B /* Icon-App-83.5x83.5@2x.png */; };
+		8F9340C423EEDA31002E901B /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408A23EEDA31002E901B /* Icon-App-20x20@3x.png */; };
+		8F9340C523EEDA31002E901B /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408B23EEDA31002E901B /* ItunesArtwork@2x.png */; };
+		8F9340C623EEDA31002E901B /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408C23EEDA31002E901B /* Contents.json */; };
+		8F9340C723EEDA31002E901B /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408D23EEDA31002E901B /* Icon-App-20x20@2x.png */; };
+		8F9340C823EEDA31002E901B /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408E23EEDA31002E901B /* Icon-App-29x29@3x.png */; };
+		8F9340C923EEDA31002E901B /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93408F23EEDA31002E901B /* Icon-App-40x40@2x.png */; };
+		8F9340CA23EEDA31002E901B /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409023EEDA31002E901B /* Icon-App-60x60@3x.png */; };
+		8F9340CB23EEDA31002E901B /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409123EEDA31002E901B /* Icon-App-60x60@2x.png */; };
+		8F9340CC23EEDA31002E901B /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409223EEDA31002E901B /* Icon-App-76x76@1x.png */; };
+		8F9340CD23EEDA31002E901B /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409323EEDA31002E901B /* Icon-App-40x40@3x.png */; };
+		8F9340CE23EEDA31002E901B /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409423EEDA31002E901B /* Icon-App-29x29@2x.png */; };
+		8F9340CF23EEDA31002E901B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409523EEDA31002E901B /* README.md */; };
+		8F9340D023EEDA31002E901B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409623EEDA31002E901B /* iTunesArtwork@2x.png */; };
+		8F9340D123EEDA31002E901B /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409723EEDA31002E901B /* iTunesArtwork@3x.png */; };
+		8F9340D223EEDA31002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409A23EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D323EEDA32002E901B /* playstore-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409B23EEDA31002E901B /* playstore-icon.png */; };
+		8F9340D423EEDA32002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409D23EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D523EEDA32002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F93409F23EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D623EEDA32002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A123EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D723EEDA32002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A323EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D823EEDA32002E901B /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A523EEDA31002E901B /* ic_launcher.png */; };
+		8F9340D923EEDA32002E901B /* icon-messages-app-iPhone-60x45@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A723EEDA31002E901B /* icon-messages-app-iPhone-60x45@1x.png */; };
+		8F9340DA23EEDA32002E901B /* icon-messages-app-iPadAir-67x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A823EEDA31002E901B /* icon-messages-app-iPadAir-67x50@2x.png */; };
+		8F9340DB23EEDA32002E901B /* icon-messages-app-store-1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340A923EEDA31002E901B /* icon-messages-app-store-1024x768.png */; };
+		8F9340DC23EEDA32002E901B /* icon-messages-transcript-32x24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AA23EEDA31002E901B /* icon-messages-transcript-32x24@3x.png */; };
+		8F9340DD23EEDA32002E901B /* icon-messages-app-27x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AB23EEDA31002E901B /* icon-messages-app-27x20@1x.png */; };
+		8F9340DE23EEDA32002E901B /* icon-messages-transcript-32x24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AC23EEDA31002E901B /* icon-messages-transcript-32x24@2x.png */; };
+		8F9340DF23EEDA32002E901B /* icon-messages-app-27x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AD23EEDA31002E901B /* icon-messages-app-27x20@2x.png */; };
+		8F9340E023EEDA32002E901B /* icon-messages-transcript-32x24@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AE23EEDA31002E901B /* icon-messages-transcript-32x24@1x.png */; };
+		8F9340E123EEDA32002E901B /* icon-messages-app-27x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340AF23EEDA31002E901B /* icon-messages-app-27x20@3x.png */; };
+		8F9340E223EEDA32002E901B /* icon-messages-app-iPadAir-74x55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B023EEDA31002E901B /* icon-messages-app-iPadAir-74x55@2x.png */; };
+		8F9340E323EEDA32002E901B /* icon-messages-app-iPhone-60x45@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B123EEDA31002E901B /* icon-messages-app-iPhone-60x45@3x.png */; };
+		8F9340E423EEDA32002E901B /* icon-messages-app-iPhone-60x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B223EEDA31002E901B /* icon-messages-app-iPhone-60x45@2x.png */; };
+		8F9340E523EEDA32002E901B /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B523EEDA31002E901B /* Icon-40@2x.png */; };
+		8F9340E623EEDA32002E901B /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B623EEDA31002E901B /* Icon-29@2x.png */; };
+		8F9340E723EEDA32002E901B /* Icon-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B723EEDA31002E901B /* Icon-44@2x.png */; };
+		8F9340E823EEDA32002E901B /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B823EEDA31002E901B /* Icon-29@3x.png */; };
+		8F9340E923EEDA32002E901B /* Icon-27.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340B923EEDA31002E901B /* Icon-27.5@2x.png */; };
+		8F9340EA23EEDA32002E901B /* Icon-86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340BA23EEDA31002E901B /* Icon-86@2x.png */; };
+		8F9340EB23EEDA32002E901B /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340BB23EEDA31002E901B /* Contents.json */; };
+		8F9340EC23EEDA32002E901B /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340BC23EEDA31002E901B /* Icon-98@2x.png */; };
+		8F9340ED23EEDA32002E901B /* Icon-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9340BD23EEDA31002E901B /* Icon-24@2x.png */; };
 		8F9FBC7223E1365F002AABA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBC7123E1365F002AABA3 /* AppDelegate.swift */; };
 		8F9FBC7423E1365F002AABA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBC7323E1365F002AABA3 /* SceneDelegate.swift */; };
 		8F9FBC7623E1365F002AABA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBC7523E1365F002AABA3 /* ViewController.swift */; };
@@ -15,6 +65,8 @@
 		8F9FBC7E23E13660002AABA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9FBC7C23E13660002AABA3 /* LaunchScreen.storyboard */; };
 		8F9FBC8923E13660002AABA3 /* CalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBC8823E13660002AABA3 /* CalenderTests.swift */; };
 		8F9FBC9423E13660002AABA3 /* CalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBC9323E13660002AABA3 /* CalenderUITests.swift */; };
+		8FBCE1BE23E13D9C00813B1D /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBCE1BD23E13D9C00813B1D /* NextViewController.swift */; };
+		F058523BF336CF232452A297 /* Pods_CalenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE10D9C662FD1138A6A09CD /* Pods_CalenderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +87,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A53CB4162C41E5DB38B524 /* Pods-CalenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderUITests.release.xcconfig"; path = "Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		200C0BF528320A828941ED29 /* Pods-CalenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderUITests.debug.xcconfig"; path = "Target Support Files/Pods-CalenderUITests/Pods-CalenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35E17900723E49FEE6DACC65 /* Pods-CalenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderTests.debug.xcconfig"; path = "Target Support Files/Pods-CalenderTests/Pods-CalenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CDCDE08964A375B759974CB /* Pods-Calender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calender.release.xcconfig"; path = "Target Support Files/Pods-Calender/Pods-Calender.release.xcconfig"; sourceTree = "<group>"; };
+		7BCCE825A7EB14840C73C01E /* Pods-Calender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calender.debug.xcconfig"; path = "Target Support Files/Pods-Calender/Pods-Calender.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE10D9C662FD1138A6A09CD /* Pods_CalenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F93408323EEDA31002E901B /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		8F93408523EEDA31002E901B /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		8F93408623EEDA31002E901B /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		8F93408723EEDA31002E901B /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		8F93408823EEDA31002E901B /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		8F93408923EEDA31002E901B /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		8F93408A23EEDA31002E901B /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		8F93408B23EEDA31002E901B /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		8F93408C23EEDA31002E901B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		8F93408D23EEDA31002E901B /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		8F93408E23EEDA31002E901B /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		8F93408F23EEDA31002E901B /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		8F93409023EEDA31002E901B /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		8F93409123EEDA31002E901B /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		8F93409223EEDA31002E901B /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		8F93409323EEDA31002E901B /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		8F93409423EEDA31002E901B /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		8F93409523EEDA31002E901B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F93409623EEDA31002E901B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		8F93409723EEDA31002E901B /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		8F93409A23EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F93409B23EEDA31002E901B /* playstore-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playstore-icon.png"; sourceTree = "<group>"; };
+		8F93409D23EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F93409F23EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F9340A123EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F9340A323EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F9340A523EEDA31002E901B /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		8F9340A723EEDA31002E901B /* icon-messages-app-iPhone-60x45@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@1x.png"; sourceTree = "<group>"; };
+		8F9340A823EEDA31002E901B /* icon-messages-app-iPadAir-67x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPadAir-67x50@2x.png"; sourceTree = "<group>"; };
+		8F9340A923EEDA31002E901B /* icon-messages-app-store-1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-store-1024x768.png"; sourceTree = "<group>"; };
+		8F9340AA23EEDA31002E901B /* icon-messages-transcript-32x24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@3x.png"; sourceTree = "<group>"; };
+		8F9340AB23EEDA31002E901B /* icon-messages-app-27x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@1x.png"; sourceTree = "<group>"; };
+		8F9340AC23EEDA31002E901B /* icon-messages-transcript-32x24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@2x.png"; sourceTree = "<group>"; };
+		8F9340AD23EEDA31002E901B /* icon-messages-app-27x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@2x.png"; sourceTree = "<group>"; };
+		8F9340AE23EEDA31002E901B /* icon-messages-transcript-32x24@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@1x.png"; sourceTree = "<group>"; };
+		8F9340AF23EEDA31002E901B /* icon-messages-app-27x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@3x.png"; sourceTree = "<group>"; };
+		8F9340B023EEDA31002E901B /* icon-messages-app-iPadAir-74x55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPadAir-74x55@2x.png"; sourceTree = "<group>"; };
+		8F9340B123EEDA31002E901B /* icon-messages-app-iPhone-60x45@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@3x.png"; sourceTree = "<group>"; };
+		8F9340B223EEDA31002E901B /* icon-messages-app-iPhone-60x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@2x.png"; sourceTree = "<group>"; };
+		8F9340B523EEDA31002E901B /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		8F9340B623EEDA31002E901B /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		8F9340B723EEDA31002E901B /* Icon-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-44@2x.png"; sourceTree = "<group>"; };
+		8F9340B823EEDA31002E901B /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		8F9340B923EEDA31002E901B /* Icon-27.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5@2x.png"; sourceTree = "<group>"; };
+		8F9340BA23EEDA31002E901B /* Icon-86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@2x.png"; sourceTree = "<group>"; };
+		8F9340BB23EEDA31002E901B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		8F9340BC23EEDA31002E901B /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@2x.png"; sourceTree = "<group>"; };
+		8F9340BD23EEDA31002E901B /* Icon-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24@2x.png"; sourceTree = "<group>"; };
 		8F9FBC6E23E1365F002AABA3 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9FBC7123E1365F002AABA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9FBC7323E1365F002AABA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +155,10 @@
 		8F9FBC8F23E13660002AABA3 /* CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9FBC9323E13660002AABA3 /* CalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderUITests.swift; sourceTree = "<group>"; };
 		8F9FBC9523E13660002AABA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBCE1BD23E13D9C00813B1D /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		9C64B03CCE701522E6DBCF37 /* Pods-CalenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalenderTests.release.xcconfig"; path = "Target Support Files/Pods-CalenderTests/Pods-CalenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		B83D3B7A083AB4BDFA09F3EB /* Pods_Calender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3820452B5E24380326BDFA6 /* Pods_CalenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0ABD3133E65899FF43288E /* Pods_Calender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419BD1A47491BBF1C1AAD08C /* Pods_CalenderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +182,174 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F058523BF336CF232452A297 /* Pods_CalenderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53592293FABD8EE55B8220F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83D3B7A083AB4BDFA09F3EB /* Pods_Calender.framework */,
+				E3820452B5E24380326BDFA6 /* Pods_CalenderTests.framework */,
+				7FE10D9C662FD1138A6A09CD /* Pods_CalenderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F93408123EEDA31002E901B /* book_nikkichou_diary */ = {
+			isa = PBXGroup;
+			children = (
+				8F93408223EEDA31002E901B /* ios */,
+				8F93409823EEDA31002E901B /* android */,
+				8F9340A623EEDA31002E901B /* imessenger */,
+				8F9340B323EEDA31002E901B /* watchkit */,
+			);
+			path = book_nikkichou_diary;
+			sourceTree = "<group>";
+		};
+		8F93408223EEDA31002E901B /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8F93408323EEDA31002E901B /* iTunesArtwork@1x.png */,
+				8F93408423EEDA31002E901B /* AppIcon.appiconset */,
+				8F93409523EEDA31002E901B /* README.md */,
+				8F93409623EEDA31002E901B /* iTunesArtwork@2x.png */,
+				8F93409723EEDA31002E901B /* iTunesArtwork@3x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		8F93408423EEDA31002E901B /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				8F93408523EEDA31002E901B /* Icon-App-76x76@2x.png */,
+				8F93408623EEDA31002E901B /* Icon-App-29x29@1x.png */,
+				8F93408723EEDA31002E901B /* Icon-App-40x40@1x.png */,
+				8F93408823EEDA31002E901B /* Icon-App-20x20@1x.png */,
+				8F93408923EEDA31002E901B /* Icon-App-83.5x83.5@2x.png */,
+				8F93408A23EEDA31002E901B /* Icon-App-20x20@3x.png */,
+				8F93408B23EEDA31002E901B /* ItunesArtwork@2x.png */,
+				8F93408C23EEDA31002E901B /* Contents.json */,
+				8F93408D23EEDA31002E901B /* Icon-App-20x20@2x.png */,
+				8F93408E23EEDA31002E901B /* Icon-App-29x29@3x.png */,
+				8F93408F23EEDA31002E901B /* Icon-App-40x40@2x.png */,
+				8F93409023EEDA31002E901B /* Icon-App-60x60@3x.png */,
+				8F93409123EEDA31002E901B /* Icon-App-60x60@2x.png */,
+				8F93409223EEDA31002E901B /* Icon-App-76x76@1x.png */,
+				8F93409323EEDA31002E901B /* Icon-App-40x40@3x.png */,
+				8F93409423EEDA31002E901B /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		8F93409823EEDA31002E901B /* android */ = {
+			isa = PBXGroup;
+			children = (
+				8F93409923EEDA31002E901B /* mipmap-mdpi */,
+				8F93409B23EEDA31002E901B /* playstore-icon.png */,
+				8F93409C23EEDA31002E901B /* mipmap-hdpi */,
+				8F93409E23EEDA31002E901B /* mipmap-ldpi */,
+				8F9340A023EEDA31002E901B /* mipmap-xxxhdpi */,
+				8F9340A223EEDA31002E901B /* mipmap-xxhdpi */,
+				8F9340A423EEDA31002E901B /* mipmap-xhdpi */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		8F93409923EEDA31002E901B /* mipmap-mdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F93409A23EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-mdpi";
+			sourceTree = "<group>";
+		};
+		8F93409C23EEDA31002E901B /* mipmap-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F93409D23EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-hdpi";
+			sourceTree = "<group>";
+		};
+		8F93409E23EEDA31002E901B /* mipmap-ldpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F93409F23EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-ldpi";
+			sourceTree = "<group>";
+		};
+		8F9340A023EEDA31002E901B /* mipmap-xxxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340A123EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-xxxhdpi";
+			sourceTree = "<group>";
+		};
+		8F9340A223EEDA31002E901B /* mipmap-xxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340A323EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-xxhdpi";
+			sourceTree = "<group>";
+		};
+		8F9340A423EEDA31002E901B /* mipmap-xhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340A523EEDA31002E901B /* ic_launcher.png */,
+			);
+			path = "mipmap-xhdpi";
+			sourceTree = "<group>";
+		};
+		8F9340A623EEDA31002E901B /* imessenger */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340A723EEDA31002E901B /* icon-messages-app-iPhone-60x45@1x.png */,
+				8F9340A823EEDA31002E901B /* icon-messages-app-iPadAir-67x50@2x.png */,
+				8F9340A923EEDA31002E901B /* icon-messages-app-store-1024x768.png */,
+				8F9340AA23EEDA31002E901B /* icon-messages-transcript-32x24@3x.png */,
+				8F9340AB23EEDA31002E901B /* icon-messages-app-27x20@1x.png */,
+				8F9340AC23EEDA31002E901B /* icon-messages-transcript-32x24@2x.png */,
+				8F9340AD23EEDA31002E901B /* icon-messages-app-27x20@2x.png */,
+				8F9340AE23EEDA31002E901B /* icon-messages-transcript-32x24@1x.png */,
+				8F9340AF23EEDA31002E901B /* icon-messages-app-27x20@3x.png */,
+				8F9340B023EEDA31002E901B /* icon-messages-app-iPadAir-74x55@2x.png */,
+				8F9340B123EEDA31002E901B /* icon-messages-app-iPhone-60x45@3x.png */,
+				8F9340B223EEDA31002E901B /* icon-messages-app-iPhone-60x45@2x.png */,
+			);
+			path = imessenger;
+			sourceTree = "<group>";
+		};
+		8F9340B323EEDA31002E901B /* watchkit */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340B423EEDA31002E901B /* AppIcon.appiconset */,
+			);
+			path = watchkit;
+			sourceTree = "<group>";
+		};
+		8F9340B423EEDA31002E901B /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				8F9340B523EEDA31002E901B /* Icon-40@2x.png */,
+				8F9340B623EEDA31002E901B /* Icon-29@2x.png */,
+				8F9340B723EEDA31002E901B /* Icon-44@2x.png */,
+				8F9340B823EEDA31002E901B /* Icon-29@3x.png */,
+				8F9340B923EEDA31002E901B /* Icon-27.5@2x.png */,
+				8F9340BA23EEDA31002E901B /* Icon-86@2x.png */,
+				8F9340BB23EEDA31002E901B /* Contents.json */,
+				8F9340BC23EEDA31002E901B /* Icon-98@2x.png */,
+				8F9340BD23EEDA31002E901B /* Icon-24@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		8F9FBC6523E1365F002AABA3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +357,8 @@
 				8F9FBC8723E13660002AABA3 /* CalenderTests */,
 				8F9FBC9223E13660002AABA3 /* CalenderUITests */,
 				8F9FBC6F23E1365F002AABA3 /* Products */,
+				F58389768FFFB40BF07FB997 /* Pods */,
+				53592293FABD8EE55B8220F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +379,11 @@
 				8F9FBC7323E1365F002AABA3 /* SceneDelegate.swift */,
 				8F9FBC7523E1365F002AABA3 /* ViewController.swift */,
 				8F9FBC7723E1365F002AABA3 /* Main.storyboard */,
+				8F93408123EEDA31002E901B /* book_nikkichou_diary */,
 				8F9FBC7A23E13660002AABA3 /* Assets.xcassets */,
 				8F9FBC7C23E13660002AABA3 /* LaunchScreen.storyboard */,
 				8F9FBC7F23E13660002AABA3 /* Info.plist */,
+				8FBCE1BD23E13D9C00813B1D /* NextViewController.swift */,
 			);
 			path = Calender;
 			sourceTree = "<group>";
@@ -128,6 +406,19 @@
 			path = CalenderUITests;
 			sourceTree = "<group>";
 		};
+		F58389768FFFB40BF07FB997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCE825A7EB14840C73C01E /* Pods-Calender.debug.xcconfig */,
+				5CDCDE08964A375B759974CB /* Pods-Calender.release.xcconfig */,
+				35E17900723E49FEE6DACC65 /* Pods-CalenderTests.debug.xcconfig */,
+				9C64B03CCE701522E6DBCF37 /* Pods-CalenderTests.release.xcconfig */,
+				200C0BF528320A828941ED29 /* Pods-CalenderUITests.debug.xcconfig */,
+				18A53CB4162C41E5DB38B524 /* Pods-CalenderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9FBC9823E13660002AABA3 /* Build configuration list for PBXNativeTarget "Calender" */;
 			buildPhases = (
+				2B9761C9F2681D8F62C6E1B7 /* [CP] Check Pods Manifest.lock */,
 				8F9FBC6A23E1365F002AABA3 /* Sources */,
 				8F9FBC6B23E1365F002AABA3 /* Frameworks */,
 				8F9FBC6C23E1365F002AABA3 /* Resources */,
+				6CD5329AA6EABED5FF4E6BE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +445,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9FBC9B23E13660002AABA3 /* Build configuration list for PBXNativeTarget "CalenderTests" */;
 			buildPhases = (
+				DB017657BFF56124D382A267 /* [CP] Check Pods Manifest.lock */,
 				8F9FBC8023E13660002AABA3 /* Sources */,
 				8F9FBC8123E13660002AABA3 /* Frameworks */,
 				8F9FBC8223E13660002AABA3 /* Resources */,
@@ -170,6 +464,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9FBC9E23E13660002AABA3 /* Build configuration list for PBXNativeTarget "CalenderUITests" */;
 			buildPhases = (
+				1D4A91F8ABD002947E77C82A /* [CP] Check Pods Manifest.lock */,
 				8F9FBC8B23E13660002AABA3 /* Sources */,
 				8F9FBC8C23E13660002AABA3 /* Frameworks */,
 				8F9FBC8D23E13660002AABA3 /* Resources */,
@@ -232,9 +527,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9340D123EEDA31002E901B /* iTunesArtwork@3x.png in Resources */,
+				8F9340CE23EEDA31002E901B /* Icon-App-29x29@2x.png in Resources */,
+				8F9340DC23EEDA32002E901B /* icon-messages-transcript-32x24@3x.png in Resources */,
+				8F9340DE23EEDA32002E901B /* icon-messages-transcript-32x24@2x.png in Resources */,
+				8F9340C923EEDA31002E901B /* Icon-App-40x40@2x.png in Resources */,
+				8F9340C523EEDA31002E901B /* ItunesArtwork@2x.png in Resources */,
+				8F9340CF23EEDA31002E901B /* README.md in Resources */,
 				8F9FBC7E23E13660002AABA3 /* LaunchScreen.storyboard in Resources */,
+				8F9340C323EEDA31002E901B /* Icon-App-83.5x83.5@2x.png in Resources */,
+				8F9340ED23EEDA32002E901B /* Icon-24@2x.png in Resources */,
+				8F9340D223EEDA31002E901B /* ic_launcher.png in Resources */,
+				8F9340C223EEDA31002E901B /* Icon-App-20x20@1x.png in Resources */,
+				8F9340DF23EEDA32002E901B /* icon-messages-app-27x20@2x.png in Resources */,
+				8F9340E623EEDA32002E901B /* Icon-29@2x.png in Resources */,
+				8F9340CB23EEDA31002E901B /* Icon-App-60x60@2x.png in Resources */,
+				8F9340C723EEDA31002E901B /* Icon-App-20x20@2x.png in Resources */,
+				8F9340EA23EEDA32002E901B /* Icon-86@2x.png in Resources */,
+				8F9340DB23EEDA32002E901B /* icon-messages-app-store-1024x768.png in Resources */,
+				8F9340C423EEDA31002E901B /* Icon-App-20x20@3x.png in Resources */,
+				8F9340EC23EEDA32002E901B /* Icon-98@2x.png in Resources */,
+				8F9340E223EEDA32002E901B /* icon-messages-app-iPadAir-74x55@2x.png in Resources */,
 				8F9FBC7B23E13660002AABA3 /* Assets.xcassets in Resources */,
+				8F9340E323EEDA32002E901B /* icon-messages-app-iPhone-60x45@3x.png in Resources */,
+				8F9340E723EEDA32002E901B /* Icon-44@2x.png in Resources */,
+				8F9340C123EEDA31002E901B /* Icon-App-40x40@1x.png in Resources */,
+				8F9340E923EEDA32002E901B /* Icon-27.5@2x.png in Resources */,
+				8F9340BF23EEDA31002E901B /* Icon-App-76x76@2x.png in Resources */,
+				8F9340D423EEDA32002E901B /* ic_launcher.png in Resources */,
+				8F9340E523EEDA32002E901B /* Icon-40@2x.png in Resources */,
+				8F9340EB23EEDA32002E901B /* Contents.json in Resources */,
+				8F9340D023EEDA31002E901B /* iTunesArtwork@2x.png in Resources */,
+				8F9340D723EEDA32002E901B /* ic_launcher.png in Resources */,
+				8F9340E123EEDA32002E901B /* icon-messages-app-27x20@3x.png in Resources */,
+				8F9340CC23EEDA31002E901B /* Icon-App-76x76@1x.png in Resources */,
+				8F9340E423EEDA32002E901B /* icon-messages-app-iPhone-60x45@2x.png in Resources */,
+				8F9340D823EEDA32002E901B /* ic_launcher.png in Resources */,
+				8F9340C823EEDA31002E901B /* Icon-App-29x29@3x.png in Resources */,
+				8F9340D623EEDA32002E901B /* ic_launcher.png in Resources */,
+				8F9340D523EEDA32002E901B /* ic_launcher.png in Resources */,
+				8F9340CA23EEDA31002E901B /* Icon-App-60x60@3x.png in Resources */,
+				8F9340E823EEDA32002E901B /* Icon-29@3x.png in Resources */,
+				8F9340BE23EEDA31002E901B /* iTunesArtwork@1x.png in Resources */,
+				8F9340CD23EEDA31002E901B /* Icon-App-40x40@3x.png in Resources */,
+				8F9340D323EEDA32002E901B /* playstore-icon.png in Resources */,
+				8F9340D923EEDA32002E901B /* icon-messages-app-iPhone-60x45@1x.png in Resources */,
 				8F9FBC7923E1365F002AABA3 /* Main.storyboard in Resources */,
+				8F9340DA23EEDA32002E901B /* icon-messages-app-iPadAir-67x50@2x.png in Resources */,
+				8F9340E023EEDA32002E901B /* icon-messages-transcript-32x24@1x.png in Resources */,
+				8F9340C023EEDA31002E901B /* Icon-App-29x29@1x.png in Resources */,
+				8F9340C623EEDA31002E901B /* Contents.json in Resources */,
+				8F9340DD23EEDA32002E901B /* icon-messages-app-27x20@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +597,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D4A91F8ABD002947E77C82A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9761C9F2681D8F62C6E1B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD5329AA6EABED5FF4E6BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calender/Pods-Calender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calender/Pods-Calender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calender/Pods-Calender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB017657BFF56124D382A267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F9FBC6A23E1365F002AABA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F9FBC7623E1365F002AABA3 /* ViewController.swift in Sources */,
+				8FBCE1BE23E13D9C00813B1D /* NextViewController.swift in Sources */,
 				8F9FBC7223E1365F002AABA3 /* AppDelegate.swift in Sources */,
 				8F9FBC7423E1365F002AABA3 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,17 +862,20 @@
 		};
 		8F9FBC9923E13660002AABA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCCE825A7EB14840C73C01E /* Pods-Calender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = RW9N8FZHM7;
 				INFOPLIST_FILE = Calender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kyamisuke.Calender;
+				PRODUCT_BUNDLE_IDENTIFIER = kyamisuke.easydiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +883,20 @@
 		};
 		8F9FBC9A23E13660002AABA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDCDE08964A375B759974CB /* Pods-Calender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = RW9N8FZHM7;
 				INFOPLIST_FILE = Calender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kyamisuke.Calender;
+				PRODUCT_BUNDLE_IDENTIFIER = kyamisuke.easydiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +904,7 @@
 		};
 		8F9FBC9C23E13660002AABA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E17900723E49FEE6DACC65 /* Pods-CalenderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +927,7 @@
 		};
 		8F9FBC9D23E13660002AABA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C64B03CCE701522E6DBCF37 /* Pods-CalenderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +950,7 @@
 		};
 		8F9FBC9F23E13660002AABA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200C0BF528320A828941ED29 /* Pods-CalenderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +971,7 @@
 		};
 		8F9FBCA023E13660002AABA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A53CB4162C41E5DB38B524 /* Pods-CalenderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
